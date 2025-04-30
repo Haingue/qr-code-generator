@@ -16,7 +16,7 @@ jobs:
         uses: actions/setup-node@v4
 
       - name: Install dependencies
-        uses: bahmutov/npm-install@v1
+        uses: chill-viking/npm-ci@latest
 
       - name: Build project
         run: npm run build
