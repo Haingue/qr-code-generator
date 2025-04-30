@@ -10,8 +10,8 @@ export const Root = () => {
       <NavigationBar />
       <main>
               <Routes>
-                  <Route path={["/", "/qr-code-generator"]} element={<Generator />} />
-                  <Route path="*" element={<NotFound />} />
+                  <Route path="*" element={<Generator />} />
+{/*                   <Route path="*" element={<NotFound />} /> */}
               </Routes>
       </main>
       <footer></footer>
