@@ -11,6 +11,7 @@ export const Root = () => {
       <main>
               <Routes>
                   <Route path="/" element={<Generator />} />
+                  <Route path="/qr-code-generator" element={<Generator />} />
                   <Route path="*" element={<NotFound />} />
               </Routes>
       </main>
