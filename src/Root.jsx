@@ -10,7 +10,7 @@ export const Root = () => {
       <NavigationBar />
       <main>
               <Routes>
-                  <Route path="/" element={<Generator />} />
+                  <Route path="/"><Redirect to="/qr-code-generator" /></Route>
                   <Route path="/qr-code-generator" element={<Generator />} />
                   <Route path="*" element={<NotFound />} />
               </Routes>
